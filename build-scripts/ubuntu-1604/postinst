@@ -18,6 +18,8 @@ SANDBOX_NETWORK='sandbox'
 LIVE_NETWORK='live'
 DEFAULT_NETWORK=$SANDBOX_NETWORK
 
+ANYONE_CAN_WRITE=False
+
 
 mkdir -p $GENERAL_CONFIG_DIR
 mkdir -p /var/lib/indy
